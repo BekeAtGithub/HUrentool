@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hungary Rental Property Investment Calculator for Hungarian Citizens - Analyze long-term and short-term rental returns with Hungarian tax rates, mortgage rates, and market conditions.">
+    <title>🇭🇺 Hungary Rental Property Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .flag {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: wave 2s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-10deg); }
+            75% { transform: rotate(10deg); }
+        }
+
+        h1 {
+            color: #2d3748;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #718096;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        .features {
+            text-align: left;
+            margin: 40px 0;
+            padding: 30px;
+            background: #f7fafc;
+            border-radius: 12px;
+        }
+
+        .features h2 {
+            color: #2d3748;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            color: #4a5568;
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+
+        .info {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            color: #718096;
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+
+        .info strong {
+            color: #2d3748;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .flag {
+                font-size: 60px;
+            }
+
+            .cta-button {
+                padding: 15px 40px;
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flag">🇭🇺</div>
+        <h1>Hungary Rental Property Calculator</h1>
+        <p class="subtitle">Comprehensive investment analysis tool for Hungarian citizens investing in rental properties</p>
+
+        <div class="features">
+            <h2>📊 What's Included</h2>
+            <ul>
+                <li><strong>Hungarian Tax Rates:</strong> 15% individual / 9% company tax</li>
+                <li><strong>Citizen Mortgage Rates:</strong> 3.5-5.5% (not foreign investor rates)</li>
+                <li><strong>Long-term & Short-term Rentals:</strong> Compare Airbnb vs traditional</li>
+                <li><strong>20-Year Projections:</strong> Cash flow, equity, appreciation, tax savings</li>
+                <li><strong>Hungarian Market Data:</strong> Budapest rental yields, growth rates, costs</li>
+                <li><strong>7 Analysis Tabs:</strong> Pro forma, debt paydown, ROI, DCR, tax deductions</li>
+            </ul>
+        </div>
+
+        <a href="HungaryRentalMath.html" class="cta-button">Launch Calculator 🚀</a>
+
+        <div class="info">
+            <strong>Built for Hungarian Citizens</strong><br>
+            This calculator uses Hungary-specific parameters including 4% transfer tax, 2% annual depreciation,
+            and mortgage rates available to Hungarian residents (3.5-5.5%), not foreign investors.
+        </div>
+    </div>
+</body>
+</html>
+
